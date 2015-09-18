@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Page title</title>
+<title><?php echo $Page_title ?></title>
 </head>
 <body>
 <?php require_once("menu.php")?>

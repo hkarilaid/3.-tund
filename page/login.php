@@ -53,10 +53,13 @@
 
 ?>
 <html>
-<head>
-<title>Login page</title>
-</head>
-<body>
+<?php
+	$page_title = "Login leht";
+	$file_name = "login.php"
+	
+	
+?>
+<?php require_once("../header.php"); ?>
 	<h2>Login</h2>
 	<form action="login.php" method="post">
 	<input name="email" type="email" placeholder="E-post"> <?php echo $email_error  ?> <br><br>
@@ -72,7 +75,5 @@
 	<input name="lastname" type="name" placeholder="Perekonnanimi"> <br><br>
 	<input type="submit" value="Loo kasutaja"> <br><br>
 	</form>
-</body>
+<?php require_once("../footer.php"); ?>
 
-
-</html>
