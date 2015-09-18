@@ -14,7 +14,7 @@
 	if($_SERVER["REQUEST_METHOD"] == "POST") {
 		
 		if ($_POST["password"] == $_POST["confirm_password"]) {
-		$password_right = "Paroolid klapivad";
+		$password_right = "Paroolid klapivadasd";
 }
 	else {
 		$password_fail = "Paroolid ei klapi.";
